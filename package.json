@@ -1,0 +1,20 @@
+{
+  "name": "feather-specimen-webgpu",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "自然博物馆羽毛标本三维展示系统 (TypeScript + WebGPU)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "validate": "tsx scripts/validate.ts && tsx scripts/validate-film.ts"
+  },
+  "devDependencies": {
+    "@webgpu/types": "^0.1.74",
+    "tsx": "^4.23.15",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

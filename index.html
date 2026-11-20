@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>羽毛标本三维展示系统</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="app-header">
+        <div class="app-logo">🪶 羽毛标本<span>三维展示系统</span></div>
+        <nav class="nav">
+          <a href="#/library">标本库</a>
+          <a href="#/editor">羽毛编辑</a>
+          <a href="#/display">标本展示</a>
+          <a href="#/compare">对比</a>
+          <a href="#/settings">设置</a>
+        </nav>
+        <div class="header-meta">TypeScript · WebGPU</div>
+      </header>
+      <main></main>
+    </div>
+    <div id="unsupported" class="unsupported-panel" hidden>
+      <div class="unsupported-card">
+        <h1>⚠️ 当前浏览器不支持 WebGPU</h1>
+        <p>本系统的羽毛实例化渲染与薄层干涉结构色依赖 WebGPU 技术。</p>
+        <p>请使用以下浏览器之一打开本页面：</p>
+        <ul>
+          <li>Chrome / Edge 113 及以上版本（Windows / macOS）</li>
+          <li>Chrome 113+ 的安卓版本</li>
+          <li>Safari 26+（macOS / iPadOS）</li>
+        </ul>
+        <p>并确认显卡驱动已更新、浏览器硬件加速已开启。</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

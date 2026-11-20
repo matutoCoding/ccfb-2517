@@ -16,3 +16,7 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+dist/
+.testshots/
+*.local
+.DS_Store
